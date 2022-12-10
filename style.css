@@ -1,0 +1,73 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Inter-Light.ttf);
+  }
+*{
+    background-color: black;
+    font-family: myFirstFont;
+    color: white;
+}
+h1{
+    color: white;
+}
+body{
+    padding: 10%;
+}
+form{
+    display:inline-block;
+}
+desc{
+    display:none;
+}
+::placeholder{
+    color: white;
+   opacity: 0.6;
+}
+#fname{
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 75vw;
+}
+#email_id{
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 75vw;
+}
+#pwd_id{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 75vw;
+}
+#confpwd_id{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 75vw;
+}
+#dob_id{
+   
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 75vw;
+}
+#stud_id{
+  accent-color: orange;
+}
+#emp_id
+{
+    accent-color: orange;
+}
+#btn{
+    background-color: white;
+    color: black;
+    padding:10px;
+    padding-left:40px; 
+    padding-right: 40px;
+    font-size: 15px;
+}
